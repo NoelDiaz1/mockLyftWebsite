@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav-search > h1 {
+    color: rgb(241, 9, 125);
+    font-size: 2em;
+    margin-left: 30px;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    border: red solid 1px;
+}
+
+li {
+    margin-right: 20px;
+    padding: 0 30px;
+    list-style: none;
+}
+
+.nav-list {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.nav-search {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    border: lightgrey solid 1px;
+    align-items: center;
+}
+
+input {
+    width: 50%;
+    border-radius: 10px;
+    font-size: 1.1em;
+    height: 40px;
+    border: grey solid 1px;
+    margin: 0 25px 0 0;
+}
