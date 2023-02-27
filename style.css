@@ -12,22 +12,24 @@ body {
     margin-left: 30px;
 }
 
-ul {
-    display: flex;
-    justify-content: end;
-    border: red solid 1px;
-}
-
-li {
-    margin-right: 20px;
-    padding: 0 30px;
+.nav-bullets {
+    padding: 32px 40px;
     list-style: none;
+    border: lightgrey solid 1px;
+    width: 100px;
 }
 
 .nav-list {
-    position: fixed;
+    position: relative;
     right: 0;
     top: 0;
+    margin: 0;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    border: lightgrey solid 1px;
+    font-size: 1.4em;
+    padding: 0;
 }
 
 .nav-search {
@@ -45,4 +47,83 @@ input {
     height: 40px;
     border: grey solid 1px;
     margin: 0 25px 0 0;
+}
+
+/* ========================== */
+
+.first-container {
+    display: flex;
+}
+
+#first-image {
+    width: 50%;
+    padding: 50px 10px 40px 60px
+}
+
+.text-container1 {
+    margin-top: 150px
+}
+
+.text-container1 > h1 {
+    font-size: 3.5em;
+}
+
+#applyBtn, 
+#signDriveBtn, 
+.container2-btnText > button {
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 190px;
+    height: 50px;
+    border: none;
+}
+
+#applyBtn, 
+.second-container > button, 
+.container2-btnText > button {
+    background-color: rgb(96, 32, 235);
+    color: white;
+    
+}
+
+#signDriveBtn {
+    background-color: #fff;
+    border: black solid 1px;
+}
+
+/* ===================================== */
+
+.second-container {
+    background-color: rgb(224, 224, 224);
+}
+
+.second-image {
+    position: relative;
+    left: 65%;
+    bottom: 400px;
+    width: 30%;
+    height: 450px;
+}
+
+.text-container2 {
+    list-style: none;
+}
+
+.container2-btnText {
+    display: flex;
+}
+
+.second-containerText {
+    padding: 160px 0 0 150px;
+    width: 40%;
+}
+
+.container-text {
+    margin: 30px 0;
+    font-size: 
+}
+
+span {
+    font-weight: bold;    
 }
